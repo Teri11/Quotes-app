@@ -1,1 +1,9 @@
-<app-quote></app-quote>
+<div>
+  <h1>QUOTES</h1>
+  <ul>
+    <li *ngFor="let quote for quotes">
+{{quote}}
+    </li>
+  </ul>
+  <!-- <p>My quotes for today: {{quote}}</p> -->
+</div>
