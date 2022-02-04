@@ -7,10 +7,10 @@ import { Quote } from '../quote';
 })
 export class QuoteComponent implements OnInit {
   quotes: Quote[]=[
-    {id:1, name:'Education is the key to success'},
-    {id:2,name:'Teach a man how to fish'},
-    {id:3,name:'Respect to man is the least art of courtesy'},
-    {id:4,name:'Discpline maketh a man'},
+    {topic:'Quotes', name:'Education is the key to success',description:'by Trevor Noah'},
+    {topic:'Quotes',name:'Teach a man how to fish',description:'by Mane Sadio'},
+    {topic:'Quotes',name:'Respect to man is the least art of courtesy',description:'by Bill Cosbey'},
+    {topic:'Quotes',name:'Discpline maketh a man',description:'Jones Jessica'},
     
 
   ]; 

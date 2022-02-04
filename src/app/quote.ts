@@ -1,5 +1,6 @@
 export class Quote {
-  id!: number;
+  topic!: string;
   name!: string;
+  description!: string;
 
 }
