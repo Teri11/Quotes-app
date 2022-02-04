@@ -10,7 +10,7 @@ export class QuoteComponent implements OnInit {
     {topic:'Quotes', name:'Education is the key to success',description:'by Trevor Noah'},
     {topic:'Quotes',name:'Teach a man how to fish',description:'by Mane Sadio'},
     {topic:'Quotes',name:'Respect to man is the least art of courtesy',description:'by Bill Cosbey'},
-    {topic:'Quotes',name:'Discpline maketh a man',description:'Jones Jessica'},
+    {topic:'Quotes',name:'Discpline maketh a man',description:'by Jones Jessica'},
     
 
   ]; 
