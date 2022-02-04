@@ -1,2 +1,16 @@
 /* You can add global styles to this file, and also import other style files */
-@import "~bootstrap/dist/css/bootstrap.css"
+@import "~bootstrap/dist/css/bootstrap.css";
+body{
+  background-image: url(https://cdn.statically.io/img/i.pinimg.com/originals/62/da/98/62da98a3844145e89cd5aaf257d66eea.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: white;
+}
+#line1{
+  color: white;
+}
+#line11{
+  color: white;
+  margin-left:2rem;
+}
