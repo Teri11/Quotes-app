@@ -1,6 +1,7 @@
 export class Quote {
-  topic!: string;
-  name!: string;
-  description!: string;
+  showDescription:boolean;
+  constructor(public topic:string,public name:string,public description:string){
+    this.showDescription = false;
+  }
 
 }

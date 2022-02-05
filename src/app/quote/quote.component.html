@@ -3,9 +3,13 @@
   <h1>QUOTES</h1>
   <hr>
   <ul>
+    
     <li *ngFor="let quote of quotes">
+{{quote.topic}}<br>
 {{quote.name}}
+
 <app-quote-details [quote]='quote'></app-quote-details>
+<!-- <hr> -->
     </li>
   </ul>
 
