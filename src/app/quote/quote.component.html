@@ -2,15 +2,28 @@
 <div class="container"> 
   <h1>QUOTES</h1>
   <hr>
-  <ul>
-    
-    <div *ngFor='let quote of quotes;let i =index'>
-<li>{{quote.topic}}<br>{{quote.name}}<br>{{quote.author}} on {{quote.completeDate | date}}</li>
-<button (click)='toggleDetails(i)' class="btn btn-primary">Show More</button>
-<app-quote-details *ngIf='quote.showDescription' [quote]='quote' (isComplete)='deleteQuote($event,i)'></app-quote-details>
-<!-- <hr> -->
+  <div class="row">
+    <div class="col-md-6">
+      <ul>
+        <div *ngFor='let quote of quotes;let i =index'>
+          <div>
+            <h6>{{quote.topic}}<br>{{quote.name}}<br>{{quote.author}} on {{quote.completeDate | date}}</h6>
+            <button (click)='toggleDetails(i)' class="btn btn-primary">Show More</button>
+          </div>
+        <div *ngIf='quote.showDescription'>
+          <app-quote-details  [quote]='quote' (isComplete)='deleteQuote($event,i)'></app-quote-details>
+        </div>
+         <!-- <hr>  -->
+      </div>
+      </ul>
     </div>
-  </ul>
+    <div class="col-md-6">
+
+      <app-quote-form></app-quote-form>
+    </div>
+   
+  </div>
+ 
 
 </div>
 
