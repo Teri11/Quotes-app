@@ -3,5 +3,6 @@ export class Quote {
   constructor(public topic:string,public name:string,public description:string){
     this.showDescription = false;
   }
+ 
 
 }

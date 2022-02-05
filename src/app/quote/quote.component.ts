@@ -7,10 +7,10 @@ import { Quote } from '../quote';
 })
 export class QuoteComponent implements OnInit {
   quotes: Quote[]=[
-    new Quote('Quotes','Education is the key to success','by Trevor Noah'),
-    new Quote('Quotes','Teach a man how to fish','by Mane Sadio'),
-    new Quote('Quotes','Respect to man is the least art of courtesy','by Bill Cosbey'),
-    new Quote('Quotes','Discpline maketh a man','by Jones Jessica'),
+    new Quote('Quotes','“Two roads diverged in a wood, and I—I took the one less traveled by, And that has made all the difference.”',' – Robert Frost'),
+    new Quote('Quotes','“We must not allow other people’s limited perceptions to define us.”',' –  Virginia Satir'),
+    new Quote('Quotes','“Wise men speak because they have something to say; fools because they have to say something.”',' –  Plato'),
+    new Quote('Quotes','“If you cannot do great things, do small things in a great way.”',' –   Napoleon Hill'),
     
 
   ]; 
