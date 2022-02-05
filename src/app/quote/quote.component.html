@@ -4,13 +4,12 @@
   <hr>
   <ul>
     
-    <li *ngFor="let quote of quotes">
-{{quote.topic}}<br>
-{{quote.name}}
-
-<app-quote-details [quote]='quote'></app-quote-details>
+    <div *ngFor='let quote of quotes;let i =index'>
+<li>{{quote.topic}}<br>{{quote.name}}<br>{{quote.author}}</li>
+<button (click)='toggleDetails(i)'>Toggle Details</button>
+<app-quote-details *ngIf='quote.showDescription' [quote]='quote'></app-quote-details>
 <!-- <hr> -->
-    </li>
+    </div>
   </ul>
 
 </div>
