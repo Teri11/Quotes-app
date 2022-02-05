@@ -6,8 +6,8 @@
     
     <div *ngFor='let quote of quotes;let i =index'>
 <li>{{quote.topic}}<br>{{quote.name}}<br>{{quote.author}} on {{quote.completeDate | date}}</li>
-<button (click)='toggleDetails(i)'>Show More</button>
-<app-quote-details *ngIf='quote.showDescription' [quote]='quote' (isComplete)='completeQuote($event,i)'></app-quote-details>
+<button (click)='toggleDetails(i)' class="btn btn-primary">Show More</button>
+<app-quote-details *ngIf='quote.showDescription' [quote]='quote' (isComplete)='deleteQuote($event,i)'></app-quote-details>
 <!-- <hr> -->
     </div>
   </ul>

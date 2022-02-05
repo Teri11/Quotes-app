@@ -12,16 +12,21 @@ export class QuoteComponent implements OnInit {
     new Quote('Quotes','“Wise men speak because they have something to say; fools because they have to say something.”','posted by Teri',new Date(2022,1,1),'– Plato'),
     new Quote('Quotes','“If you cannot do great things, do small things in a great way.”','posted by Teri',new Date(2010,5,12),'– Napoleon Hill'),
     
-
   ]; 
 toggleDetails(index:number){
   this.quotes[index].showDescription = !this.quotes[index].showDescription;
 }
-completeQuote(isComplete:any,index:number){
-  if (isComplete){
+deleteQuote(isComplete:any,index:number){
+  if (isComplete) {
+    let toDelete = confirm(`Are you sure you want to delete ${this.quotes[index].name}?`)
+
+  if (toDelete){
     this.quotes.splice(index,1);
+    }
   }
+
 }
+
   constructor() { }
 
   ngOnInit() {
