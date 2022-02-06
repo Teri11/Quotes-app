@@ -1,11 +1,16 @@
 /* You can add global styles to this file, and also import other style files */
 @import "~bootstrap/dist/css/bootstrap.css";
 @import "~bootstrap-icons/font/bootstrap-icons.css";
+@import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One&family=Outfit:wght@200&family=Poppins&display=swap');
+
  body{
   background-image: url(https://wallpapercave.com/wp/RL4RcZH.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
   background-color: white;
+  font-family: 'Mochiy Pop P One', sans-serif;
+font-family: 'Outfit', sans-serif;
+font-family: 'Poppins', sans-serif;
 }
  
