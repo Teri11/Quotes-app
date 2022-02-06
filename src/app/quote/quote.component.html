@@ -4,12 +4,12 @@
     <marquee id="float"direction="left" height="50" width="700"  color="white"><b><em>"Discipline Maketh a Man".</em></b></marquee></h1>
   
   <hr style="color:yellow;">
-  <div class="row">
+  <div class="row" style="color:white">
     <div class="col-md-6">
       <ul>
         <div *ngFor='let quote of quotes;let i =index'>
           <div>
-            <h6>{{quote.topic}}<br>{{quote.name}}<br>{{quote.author}} on {{quote.completeDate | date}}</h6>
+            <h6 style="color:white">{{quote.topic}}<br>{{quote.name}}<br>{{quote.author}} on {{quote.completeDate | date}}</h6>
             <button (click)='toggleDetails(i)' class="btn btn-warning">Show More</button>
           </div>
         <div *ngIf='quote.showDescription'>
