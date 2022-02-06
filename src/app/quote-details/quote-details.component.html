@@ -3,3 +3,15 @@
 <button (click)='quoteDelete(true)' class="btn btn-outline-danger">Delete Quote</button>
 
 
+<div class="container">
+  <div class="icons">
+     <button class="bi bi-hand-thumbs-up" mat-icon-button aria-label="iconButton" (click)='upvote()' style="color: green;">
+       {{quote.likes}}
+     
+     </button>
+     <button class="bi bi-hand-thumbs-down"mat-icon-button aria-label="iconButton" (click)='downvote()' style="color: red;">
+       {{quote.dislikes}}
+    </button>
+   
+  </div>
+</div> 
