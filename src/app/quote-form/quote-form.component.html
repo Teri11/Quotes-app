@@ -1,10 +1,10 @@
-<div class="container">
-  <h2 class="text-centre" style="color:whitesmoke;">Create new Quote.</h2>
+<div class="container-fluid">
+  <h2 class="text-centre" style="color:white;">Create new Quote.</h2>
   <hr>
   <form (ngSubmit)='submitQuote()' #quoteForm='ngForm'>
     <div class="form-group">
       <label for="name">Name</label>
-      <input type="text" required class="form-control" id="name" [(ngModel)]="newQuote.name" name="name" #name='ngModel'placeholder="Name">
+      <input type="text" required class="form-control" id="name" [(ngModel)]="newQuote.name" name="name" #name='ngModel'placeholder="Name...">
       <div [hidden]="name.valid || name.pristine" class="alert alert-danger">
         <p>Name is required</p>
       </div>
