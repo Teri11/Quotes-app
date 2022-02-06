@@ -6,8 +6,8 @@ A website about a pizza restaurant that stands out to be the best with tasty mea
 A web application that you can use to upload your favourite Quotes.
 
 ## Design
-<img src="blob:https://web.whatsapp.com/e670f950-563b-4f1a-af01-c460bb71342a" alt="landingpage">
-<img src="blob:https://web.whatsapp.com/7789ec09-8f14-4819-80ef-d2f5ffe1202f" alt="about us">
+<img src="../assets/front page.jpeg" alt="landingpage">
+<img src="../assets/footer.jpeg" alt="footer">
 
 ## Setup/Installation Requirements
 1)Install the Visual studio code.<br>2)Git clone the repository.<br>3)Make sure the live server extension is installed.<br>4)Click on Go live.
