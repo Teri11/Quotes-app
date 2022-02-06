@@ -1,7 +1,8 @@
 /* You can add global styles to this file, and also import other style files */
 @import "~bootstrap/dist/css/bootstrap.css";
-/* body{
-  background-image: url(https://wallpaperaccess.com/full/2416004.jpg);
+@import "~bootstrap-icons/font/bootstrap-icons.css";
+ body{
+  background-image: url(https://wallpapercave.com/wp/RL4RcZH.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -13,4 +14,4 @@
 #line11{
   color: white;
   margin-left:2rem;
-} */
+} 
