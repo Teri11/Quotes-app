@@ -1,27 +1,31 @@
 # Quotes
+A website about a pizza restaurant that stands out to be the best with tasty meals<br>on 06/02/2022.
+<br><strong>By Kubai Augustine Mweteri</strong>
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.2.0.
+## Description
+A web application that you can use to upload your favourite Quotes.
 
-## Development server
+## Design
+<img src="blob:https://web.whatsapp.com/e670f950-563b-4f1a-af01-c460bb71342a" alt="landingpage">
+<img src="blob:https://web.whatsapp.com/7789ec09-8f14-4819-80ef-d2f5ffe1202f" alt="about us">
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+## Setup/Installation Requirements
+1)Install the Visual studio code.<br>2)Git clone the repository.<br>3)Make sure the live server extension is installed.<br>4)Click on Go live.
 
-## Code scaffolding
+## Todo list
+1)Design.<br>2)Execute for use.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Known Bugs
+<li>The Website works just fine,there are no bugs.</li>
 
-## Build
+## Technologies Used
+1)HTML. <br>2)CSS.<br>3) typescript.<br>4)javascript.<br> 5)Bootstrap.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+## Support and contact details
+Email Address;augustineteri157@gmail.com
 
-## Running unit tests
+## License
+Copyright (c) [2022] Kubai Augustine Mweteri.
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
 
-## Running end-to-end tests
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
