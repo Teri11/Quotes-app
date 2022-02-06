@@ -1,7 +1,7 @@
 <div class="container">
   <h2 class="text-centre">Create new Quote.</h2>
   <hr>
-  <form #quoteForm='ngForm'>
+  <form (ngSubmit)='submitQuote()' #quoteForm='ngForm'>
     <div class="form-group">
       <label for="name">Name</label>
       <input type="text" required class="form-control" id="name" [(ngModel)]="newQuote.name" name="name" #name='ngModel'placeholder="Name">
@@ -21,7 +21,7 @@
     <div class="form-group">
 
       <label for="description">Quote</label>
-      <textarea class="form-control" id="quote" rows="4" [(ngModel)]="newQuote.name" name="Quote" #quote='ngModel' placeholder="Quote..." required></textarea>
+      <textarea class="form-control" id="quote" rows="4" [(ngModel)]="newQuote.description" name="Quote" #quote='ngModel' placeholder="Quote..." required></textarea>
       <div [hidden]="quote.valid || quote.pristine" class="alert alert-danger">
         <p>Quote is required</p>
       </div>
@@ -36,6 +36,7 @@
     </div>
 
 </div>
-<button type="submit" class="btn btn-success">Add Quote</button>
+  <br>
+  <button type="submit" class="btn btn-warning">Add  Quote</button>
   </form>
 </div>

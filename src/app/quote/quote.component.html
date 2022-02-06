@@ -8,10 +8,11 @@
         <div *ngFor='let quote of quotes;let i =index'>
           <div>
             <h6>{{quote.topic}}<br>{{quote.name}}<br>{{quote.author}} on {{quote.completeDate | date}}</h6>
-            <button (click)='toggleDetails(i)' class="btn btn-primary">Show More</button>
+            <button (click)='toggleDetails(i)' class="btn btn-warning">Show More</button>
           </div>
         <div *ngIf='quote.showDescription'>
           <app-quote-details  [quote]='quote' (isComplete)='deleteQuote($event,i)'></app-quote-details>
+          
         </div>
          <!-- <hr>  -->
       </div>
@@ -19,7 +20,7 @@
     </div>
     <div class="col-md-6">
 
-      <app-quote-form></app-quote-form>
+      <app-quote-form (addQuote)="addNewQuote($event)"></app-quote-form>
     </div>
    
   </div>
