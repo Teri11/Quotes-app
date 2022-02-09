@@ -1,5 +1,5 @@
 # Quotes
-A website about a pizza restaurant that stands out to be the best with tasty meals<br>on 06/02/2022.
+A website about an application where users can create quotes and have those quotes voted on whether they are terrible or are inspirational. <br>on 06/02/2022.
 <br><strong>By Kubai Augustine Mweteri</strong>
 
 ## Description
